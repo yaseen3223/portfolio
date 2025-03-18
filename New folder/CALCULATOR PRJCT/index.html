@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="calculatorBody">
+            <input id="inputText" placeholder="0" type="text" readonly>
+            <div class="btnContainer">
+            <button onclick="clearBtn()" class="btnCommon" id="clearBtn">CL</button>
+            <button onclick=deleteOne() class="btnCommon">DL</button>
+            <button onclick="display('%')"  class="btnCommon">%</button>
+            <button onclick="display('/')"  class="btnCommon">/</button>
+            <button onclick="display('7')"  class="btnCommon">7</button>
+            <button onclick="display('8')"  class="btnCommon">8</button>
+            <button onclick="display('9')"  class="btnCommon">9</button>
+            <button onclick="display('*')"  class="btnCommon" id="mathOperations">*</button>
+            <button onclick="display('4')"  class="btnCommon">4</button>
+            <button onclick="display('5')"  class="btnCommon">5</button>
+            <button onclick="display('6')"  class="btnCommon">6</button>
+            <button onclick="display('-')" class="btnCommon">-</button>
+            <button onclick="display('1')"  class="btnCommon">1</button>
+            <button onclick="display('2')"  class="btnCommon">2</button>
+            <button onclick="display('3')"  class="btnCommon">3</button>
+            <button onclick="display('+')"  class="btnCommon" id="mathOperations">+</button>
+            <button onclick="display('.')" class="btnCommon">.</button>
+            <button onclick="display('0')" id="zeroBtn"  class="btnCommon" value="0">0</button>
+            <button class="btnCommon "id="equalBtn">=</button>
+        </div>   
+        </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
